@@ -39,11 +39,11 @@ class Commons {
                      ),
                    borderRadius: BorderRadius.circular(10)
                  ),
-                 child: Column(
+                 child: const Column(
                    children: [
                      Icon(Icons.add),
                      Padding(
-                       padding: const EdgeInsets.symmetric(vertical: 5),
+                       padding: EdgeInsets.symmetric(vertical: 5),
                        child: Text("2"),
                      ),
                      Icon(Icons.exposure_minus_1_outlined),
